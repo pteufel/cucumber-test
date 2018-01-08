@@ -4,4 +4,4 @@ Feature: Setting the check in the before lambda expression
     Then ACheck is set
 
   Scenario: Setting BCheck
-    Then ACheck is still set
+    Then BCheck is set
