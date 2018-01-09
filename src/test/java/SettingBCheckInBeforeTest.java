@@ -14,9 +14,6 @@ public class SettingBCheckInBeforeTest implements En {
         Before(() -> {
             this.world.setCheck(new BCheck());
         });
-        Then("^ACheck is still set$", () -> {
-            assertThat(this.world.getCheck(), instanceOf(ACheck.class));
-        });
 
     }
 }
